@@ -26,13 +26,15 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <nav class="navbarmain">
             <ul>
-               <li><a href="index.html">Home</a></li>
                <li><a href="gallery.html">Gallery</a></li>
                <li><a href="gallery.html">Email Us</a></li>
                <li><a href="gallery.html">Click to Call</a></li>
             </ul>
 
         </nav>
+
+
+        
 
 
 
@@ -142,23 +144,53 @@ and is wrapped around the whole page content, except for the footer in this exam
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
           <div class="w3-row-padding" style="margin:0 -16px">
+
+
+      <center><h3><b>Contact us by email.</b></h3></center>
+
+<!--  Start email form -->
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="deeb9956-4d85-4fdf-9027-fb08a37d0eaa">
+
+    
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <p></p>
+            <label for="email" class="hidden-label"></label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <p></p>
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" placeholder="phone number" required>
+            <p></p>
+  <label for="message">Message:</label>
+  <textarea 
+    id="message" 
+    name="message" 
+    rows="5" 
+    style="width: 100%; box-sizing: border-box; padding: 10px;">
+  </textarea>
+            <p></p>
+            <button type="submit">Submit Form</button>
+</form>
+<!--  End email form -->
+
+
+<!--  Start picture under email form -->
             <div class="w3-full">
               <img src="images/things-to-do-thailand/t1a.webp" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
             </div>
+<!--  End picture under email form -->
         </div>
-        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"> Visit Czech Republic</button> 
- </div>
+       </div>
+
+
+
+
 
       <!--  1st Large Picture Block -->
 
-
-
-
    <div class="w3-card-4 w3-margin w3-white">
-    <div class="w3-container">
-     <p><a href="privacypolicy.html">Privacy Policy</a></p>
-      <h5><span class="w3-opacity"></span></h5>
-    </div>
+
 
     <div class="w3-container">
 
